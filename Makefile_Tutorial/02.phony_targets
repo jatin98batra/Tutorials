@@ -1,6 +1,8 @@
 
-A phony target is one that is not really the name of a file; rather it is just a name for a recipe to be executed when you make an explicit request.
-If you write a rule whose recipe will not create the target file, the recipe will be executed every time the target comes up for remaking:
+A phony target is one that is not really the name of a file; 
+rather it is just a name for a recipe to be executed when you make an explicit request.
+If you write a rule whose recipe will not create the target file, the recipe will be executed
+every time the target comes up for remaking:
 
 Example:
 -------------
@@ -31,7 +33,8 @@ make: 'clean' is up to date.
 
 Enter .PHONY
 -------------
-PHONY is a special Built-in-target name. That tells the make that there is a target that needs to be executed everytime regardless of any file present in the directory.
+PHONY is a special Built-in-target name.
+That tells the make that there is a target that needs to be executed everytime regardless of any file present in the directory.
 
 
 

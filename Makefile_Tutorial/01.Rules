@@ -1,0 +1,14 @@
+You know the basics.....
+
+target:dependencies/prerequisites
+    command
+
+
+Few things:
+------------
+
+1.  The target can be any file 
+2.  The dependency are the files or other target
+3.  I guess the command can be any bash command 
+4.  To specify a specific target use make <target>
+5.  The make command will execute the first target only if the target is not specified.
